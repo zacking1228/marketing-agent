@@ -5,10 +5,10 @@ description: A comprehensive AI marketing agent with 32 specialized skills cover
 
 dependencies:
   python:
-    version: "3.11"
+    version: "3.12"        # was "3.11"
     packages:
       - numpy==1.26.4
-      - requests==2.32.3
+      - requests==2.32.4   # was 2.32.3
 
 model:
   preferred: claude-opus-4-6
