@@ -3,6 +3,13 @@ name: marketing-agent
 version: 1.0.0
 description: A comprehensive AI marketing agent with 32 specialized skills covering SEO, CRO, copywriting, paid ads, email marketing, analytics, pricing strategy, and more.
 
+dependencies:
+  python:
+    version: "3.11"
+    packages:
+      - numpy==1.26.4
+      - requests==2.32.3
+
 model:
   preferred: claude-opus-4-6
   fallback:
