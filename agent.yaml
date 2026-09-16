@@ -1,4 +1,5 @@
-id: 6a25a8b9d311d5b04cd3d2b6
+gitagent_version: 2
+id: 6aaac2c2bd1d56c4d4214a0e
 name: marketing-agent
 description: A comprehensive AI marketing agent with 32 specialized skills covering
   SEO, CRO, copywriting, paid ads, email marketing, analytics, pricing strategy, and
@@ -16,6 +17,24 @@ features:
     policy_id: 699d8c78d351b090b158faf3
     policy_name: local test
 tools: []
+tool_configs: []
+managed_agents: []
 response_format:
   type: text
 max_iterations: 25
+tool_usage_description: ''
+llm_credential_id: lyzr_aws-bedrock
+additional_model_params: null
+store_messages: true
+file_output: false
+disable_artifacts: false
+a2a_tools: []
+voice_config: null
+image_output_config: null
+proxy_config: null
+skills_catalog: []
+mcp_resources: []
+mcp_prompts: []
+a2a_card: null
+custom_tags: []
+custom_metadata: null
