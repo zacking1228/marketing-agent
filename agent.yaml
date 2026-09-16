@@ -1,57 +1,34 @@
-spec_version: "0.1.0"
+gitagent_version: 2
+id: 6aaac2c2bd1d56c4d4214a0e
 name: marketing-agent
-version: 1.0.0
-description: A comprehensive AI marketing agent with 32 specialized skills covering SEO, CRO, copywriting, paid ads, email marketing, analytics, pricing strategy, and more.
-
-dependencies:
-  python:
-    version: "3.12"        # was "3.11"
-    packages:
-      - numpy==1.26.4
-      - requests==2.33.0   # 2.32.4 still had PYSEC-2026-2275
-
+description: A comprehensive AI marketing agent with 32 specialized skills covering
+  SEO, CRO, copywriting, paid ads, email marketing, analytics, pricing strategy, and
+  more.
 model:
-  preferred: claude-opus-4-6
-  fallback:
-    - claude-sonnet-4-6
-  constraints:
-    temperature: 0.3
-    max_tokens: 8192
-
-skills:
-  - ab-test-setup
-  - ad-creative
-  - ai-seo
-  - analytics-tracking
-  - churn-prevention
-  - cold-email
-  - competitor-alternatives
-  - content-strategy
-  - copy-editing
-  - copywriting
-  - email-sequence
-  - form-cro
-  - free-tool-strategy
-  - launch-strategy
-  - marketing-ideas
-  - marketing-psychology
-  - onboarding-cro
-  - page-cro
-  - paid-ads
-  - paywall-upgrade-cro
-  - popup-cro
-  - pricing-strategy
-  - product-marketing-context
-  - programmatic-seo
-  - referral-program
-  - revops
-  - sales-enablement
-  - schema-markup
-  - seo-audit
-  - signup-flow-cro
-  - site-architecture
-  - social-content
-
-runtime:
-  max_turns: 30
-  timeout: 180
+  provider: Aws-Bedrock
+  name: bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0
+  temperature: 0.7
+  top_p: 0.9
+features: []
+tools: []
+tool_configs: []
+managed_agents: []
+response_format:
+  type: text
+max_iterations: 25
+tool_usage_description: ''
+llm_credential_id: lyzr_aws-bedrock
+additional_model_params: null
+store_messages: true
+file_output: false
+disable_artifacts: false
+a2a_tools: []
+voice_config: null
+image_output_config: null
+proxy_config: null
+skills_catalog: []
+mcp_resources: []
+mcp_prompts: []
+a2a_card: null
+custom_tags: []
+custom_metadata: null
